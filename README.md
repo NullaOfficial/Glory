@@ -85,6 +85,76 @@ Glory/
 └── g-photos/
 ```
 
+Level Progression & Automated Stat Allocation System
+===
+
+### **Global Level Cap**
+* **Max Level Cap:** `Level 70`
+* **Subclass Progression Threshold:** `Level 20`
+* **Base Allocation (Levels 1–20):** **4 Points Total** (+1 to Strength, Intelligence, Spirit, Vitality).
+* **Subclass Allocation (Levels 21–70):** **5 Points Total**, distributed according to the active subclass profile.
+
+### Stat Growth Distributions (Per Level)
+
+### 1. Base Classes (Levels 1–19)
+All base classes (`Swordsman`, `Mage`, `Gunner`, `Fighter`, `NightWalker`, `Priest`) use a balanced allocation until selecting a subclass at level 20.
+
+| Base Class | Level Range | Strength | Intelligence | Spirit | Vitality | Total / Lvl |
+| :--- | :-: | :-: | :-: | :-: | :-: | :-: |
+| **All Base Classes** | Lv. 1 – 19 | +1 | +1 | +1 | +1 | **4 pts** |
+
+---
+
+### 2. Subclasses (Levels 20–70)
+
+#### ⚔️ Swordsman Subclasses
+| Subclass | Strength | Intelligence | Spirit | Vitality | Total / Lvl |
+| :--- | :-: | :-: | :-: | :-: | :-: |
+| **Ghostblade** | +3 | +1 | +0 | +1 | **5 pts** |
+| **BladeMaster** | +3 | +0 | +1 | +1 | **5 pts** |
+| **Berserker** | +4 | +0 | +0 | +1 | **5 pts** |
+| **Spellblade** | +2 | +2 | +0 | +1 | **5 pts** |
+
+#### 🧙‍♂️ Mage Subclasses
+| Subclass | Strength | Intelligence | Spirit | Vitality | Total / Lvl |
+| :--- | :-: | :-: | :-: | :-: | :-: |
+| **Elementalist** | +0 | +4 | +1 | +0 | **5 pts** |
+| **BattleMage** | +2 | +2 | +0 | +1 | **5 pts** |
+| **Witch** | +0 | +3 | +1 | +1 | **5 pts** |
+| **Summoner** | +0 | +3 | +1 | +1 | **5 pts** |
+
+#### 🎯 Gunner Subclasses
+| Subclass | Strength | Intelligence | Spirit | Vitality | Total / Lvl |
+| :--- | :-: | :-: | :-: | :-: | :-: |
+| **Sharpshooter** | +3 | +1 | +0 | +1 | **5 pts** |
+| **Launcher** | +3 | +0 | +0 | +2 | **5 pts** |
+| **Mechanic** | +1 | +3 | +0 | +1 | **5 pts** |
+| **Spitfire** | +2 | +2 | +0 | +1 | **5 pts** |
+
+#### 🥊 Fighter Subclasses
+| Subclass | Strength | Intelligence | Spirit | Vitality | Total / Lvl |
+| :--- | :-: | :-: | :-: | :-: | :-: |
+| **Brawler** | +3 | +0 | +0 | +2 | **5 pts** |
+| **QiMaster** | +1 | +3 | +1 | +0 | **5 pts** |
+| **Grappler** | +3 | +0 | +0 | +2 | **5 pts** |
+| **Striker** | +4 | +0 | +0 | +1 | **5 pts** |
+
+#### 🥷 NightWalker Subclasses
+| Subclass | Strength | Intelligence | Spirit | Vitality | Total / Lvl |
+| :--- | :-: | :-: | :-: | :-: | :-: |
+| **Assassin** | +4 | +0 | +0 | +1 | **5 pts** |
+| **Warlock** | +0 | +3 | +1 | +1 | **5 pts** |
+| **Thief** | +3 | +1 | +0 | +1 | **5 pts** |
+| **Ninja** | +3 | +1 | +0 | +1 | **5 pts** |
+
+#### ✝️ Priest Subclasses
+| Subclass | Strength | Intelligence | Spirit | Vitality | Total / Lvl |
+| :--- | :-: | :-: | :-: | :-: | :-: |
+| **Healer** | +0 | +1 | +3 | +1 | **5 pts** |
+| **Paladin** | +2 | +0 | +1 | +2 | **5 pts** |
+| **Exorcist** | +0 | +3 | +1 | +1 | **5 pts** |
+| **Knight** | +2 | +0 | +1 | +2 | **5 pts** |
+
 System Attribute & Item Specification:
 ===
 
@@ -142,8 +212,8 @@ Tier & Rarity System Specification:
 | :--- | :-: | :--- | :-: | :--- |
 | **White** *(Common)* | `#FFFFFF` | Generic Vendors / Low-Level Drops | 0 | None. Flat base stats only. |
 | **Green** *(Quest)* | `#55FF55` | Quest Rewards (Villages & Outposts) | 1 | Slight primary stat bonuses. |
-| **Blue** *(Dungeon)* | `#5555FF` | Dungeon Bosses & Mainstream Drops | 2 | Standard competitive mid-tier gear. |
+| **Blue** *(Dungeon)* | `#0088ff` | Dungeon Bosses & Mainstream Drops | 2 | Standard competitive mid-tier gear. |
 | **Purple** *(Elite)* | `#AA00AA` | Wild Bosses & Extreme Dungeons | 3–4 | High stat values + advanced secondary bonuses. |
 | **Orange** *(Epic/Legendary)*| `#FFAA00` | Ultra-Rare World Bosses / Raid Drops | 4–5 | Peak system gear + unique skill passives. |
-| **Silver** *(Self-Made)* | `#C0C0C0` | Player Crafted via Equipment Editor | Custom | Unlimited custom stat allocations & custom skills. |
+| **Silver** *(Self-Made)* | `#959595` | Player Crafted via Equipment Editor | Custom | Unlimited custom stat allocations & custom skills. |
 
