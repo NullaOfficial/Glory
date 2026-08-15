@@ -241,53 +241,6 @@ System Attribute & Item Specification:
 
 ---
 
-Extra
-===
-
-### 1. Gunner Auto-Reload & MP Management
-
-*Gunners do not rely on a manual reload key (R). Ammunition is handled automatically as a resource state:*
-
-#### - Automatic Chambering: Firing weapon rounds continuously drains MP per shot.
-
-#### - Special Ammunition: Activating elemental rounds (Freezing, Blazing, Armor-Piercing) reserves or consumes additional MP per projectile.
-
-#### - Uninterrupted Fire: Weapons will auto-chamber and fire without reload delays as long as the player maintains sufficient MP.
-
-### 2. Jump & Air Mobility Constraints
-
-*Universal Base Jump: Single jump available via Spacebar across all classes.*
-
-#### - Double Jump (Class Restricted): Restricted exclusively to high-mobility classes (Nightwalker, Ninja, Striker) or specific skills (e.g., Blade Master's Air Step).
-
-#### - Execution: Airborne Spacebar press while possessing the required passive/active perk.
-
-### 3. High-Hit Combo Systems & Mechanics (200+ Hit Combos)
-
-*Achieving massive hit counters (e.g., 200+ hits) is not possible through M1 spam due to enemy hit-stun recovery limits. Massive combos rely on three core pillars:*
-
-#### - Launch State (Knock-up): Elevating an enemy using launcher skills (e.g., Upward Strike, Launcher Cannon) or directional inputs (S + M1). Launchers apply upward velocity vectors directly to the victim's root part.
-
-#### - Air Juggle Physics: Striking an airborne enemy applies vertical force and resets their gravity decay, keeping them suspended at height ($Y$-axis).
-
-#### - Multi-Hit Skill Chaining: Integrating multi-strike abilities (rapid bullet bursts, multi-slashes) alongside rapid animation cancels to maintain infinite hit-stun.
-
-### 4. Animation Canceling & Feint System
-
-#### - Skill-to-Skill CancellationCancel the recovery frames (end-lag) of an active skill by immediately buffering another skill input:
-
-```
-[Skill A Execution] ──► [Impact Frame] ──► [Recovery Frames CANCELLED] ──► [Skill B Triggered]
-```
-
-#### - Skill Feints / Fake AttacksFake out an opponent by initiating a skill startup animation and instantly canceling it into a block/parry stance via M2:
-  
-```
-[Press Skill Key] ──► [Wind-up Animation] ──► [Press M2 (Block)] ──► [Skill Canceled / Partial CD Applied]
-```
-
----
-
 Tier & Rarity System Specification:
 ===
 
@@ -326,5 +279,60 @@ Self-Made Armor & Equipment Customization System
 * **Material Composition:** Players combine rare drop materials to modify defense thresholds, weight, and elemental resistances.
 * **Visual Editor:** Visual aesthetics and model attachments can be adjusted in the editor without affecting base hitboxes.
 * **Stat Point Allocation:** Attribute points can be manually allocated to tailor equipment specifically to a player's build (e.g., Strength, Agility, Spirit).
+
+---
+
+Extra (Very Important)
+===
+
+### 1. Gunner Auto-Reload & MP Management
+
+*Gunners do not rely on a manual reload key (R). Ammunition is handled automatically as a resource state:*
+
+#### - Automatic Chambering: Firing weapon rounds continuously drains MP per shot.
+
+#### - Special Ammunition: Activating elemental rounds (Freezing, Blazing, Armor-Piercing) reserves or consumes additional MP per projectile.
+
+#### - Uninterrupted Fire: Weapons will auto-chamber and fire without reload delays as long as the player maintains sufficient MP.
+
+---
+
+### 2. Jump & Air Mobility Constraints
+
+*Universal Base Jump: Single jump available via Spacebar across all classes.*
+
+#### - Double Jump (Class Restricted): Restricted exclusively to high-mobility classes (Nightwalker, Ninja, Striker) or specific skills (e.g., Blade Master's Air Step).
+
+#### - Execution: Airborne Spacebar press while possessing the required passive/active perk.
+
+---
+
+### 3. High-Hit Combo Systems & Mechanics (200+ Hit Combos)
+
+*Achieving massive hit counters (e.g., 200+ hits) is not possible through M1 spam due to enemy hit-stun recovery limits. Massive combos rely on three core pillars:*
+
+#### - Launch State (Knock-up): Elevating an enemy using launcher skills (e.g., Upward Strike, Launcher Cannon) or directional inputs (S + M1). Launchers apply upward velocity vectors directly to the victim's root part.
+
+#### - Air Juggle Physics: Striking an airborne enemy applies vertical force and resets their gravity decay, keeping them suspended at height ($Y$-axis).
+
+#### - Multi-Hit Skill Chaining: Integrating multi-strike abilities (rapid bullet bursts, multi-slashes) alongside rapid animation cancels to maintain infinite hit-stun.
+
+---
+
+### 4. Animation Canceling & Feint System
+
+#### - Skill-to-Skill CancellationCancel the recovery frames (end-lag) of an active skill by immediately buffering another skill input:
+
+```
+[Skill A Execution] ──► [Impact Frame] ──► [Recovery Frames CANCELLED] ──► [Skill B Triggered]
+```
+
+---
+
+#### - Skill Feints / Fake AttacksFake out an opponent by initiating a skill startup animation and instantly canceling it into a block/parry stance via M2:
+  
+```
+[Press Skill Key] ──► [Wind-up Animation] ──► [Press M2 (Block)] ──► [Skill Canceled / Partial CD Applied]
+```
 
 ---
