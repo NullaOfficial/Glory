@@ -21,7 +21,7 @@ Glory/
 │    │   │   │   └── WeaponDefinitions (ModuleScript).lua
 │    │   │   ├── Sheath (Folder)
 │    │   │   │   └── SheathDefinitions (ModuleScript).lua
-│    │   │   └── Inventory (Folder)
+│    │   │   └── Item (Folder)
 │    │   │       └── ItemDefinitions (ModuleScript).lua
 │    │   ├── Remotes (Folder)
 │    │   │   ├── ClassSelection (Folder)
