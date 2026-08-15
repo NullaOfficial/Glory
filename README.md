@@ -13,53 +13,74 @@ Glory/
 ├── models/
 ├── schemes/
 ├── src/
-│	├── ReplicatedStorage
-│	│   ├── Definitions
-│	│   │   ├── Class
-│	│   │   │   └── ClassDefinitions.lua
-│	│   │   ├── Weapon
-│	│   │   │   └── WeaponDefinitions.lua
-│	│   │   ├── Sheath
-│	│   │   │   └── SheathDefinitions.lua
-│	│   │   └── Inventory
-│	│   │       └── ItemDefinitions.lua
-│	│   ├── Remotes
-│	│   │   ├── ClassSelection
-│	│   │   ├── Combat
-│	│   │   ├── Inventory
-│	│   │   ├── Staff
-│	│   │   └── Sword
-│	│   ├── BodyPartMultipliers.lua
-│	│   ├── DataTemplate.lua
-│	│   ├── RayCastHitboxv4.lua
-│	│   └── StartingWeapons.lua
-│	│
-│	├── ServerScriptService
-│	│   ├── BlockingSystem
-│	│   │   ├── BlockManager.server.lua
-│	│   │   └── BlockState.lua
-│	│   ├── Handler
-│	│   │   ├── InventoryHandler.server.lua
-│	│   │   └── WeaponSheathHandler.server.lua
-│	│   ├── Manager
-│	│   │   ├── ClassManager.server.lua
-│	│   │   ├── InventoryManager.lua
-│	│   │   └── PlayerDataManager.lua
-│	│   ├── StarterWeaponCombatHandler
-│	│   │   ├── StaffCombatHandler.server.lua
-│	│   │   └── SwordCombatHandler.server.lua
-│	│   ├── DebugReset.server.lua
-│	│   ├── HeadBillboardGUI.server.lua
-│	│   └── ProfileStore.lua
-│	│
-│	├── ServerStorage
-│	│   ├── SheathModels
-│	│   └── StartingWeapons
-│	│
-│	└── StarterPlayer
-│	    ├── StarterCharacterScripts
-│	    │   ├── DmgGUI.client.lua
-│	    │   └── ShiftLockController.client.lua
-│	    └── StarterPlayerScripts
-│	        └── ToolHotbar
+│	/src
+│  ├── ReplicatedStorage
+│  │   ├── Definitions (Folder)
+│  │   │   ├── Class (Folder)
+│  │   │   │   └── ClassDefinitions (ModuleScript).lua
+│  │   │   ├── Weapon (Folder)
+│  │   │   │   └── WeaponDefinitions (ModuleScript).lua
+│  │   │   ├── Sheath (Folder)
+│  │   │   │   └── SheathDefinitions (ModuleScript).lua
+│  │   │   └── Inventory (Folder)
+│  │   │       └── ItemDefinitions (ModuleScript).lua
+│  │   ├── Remotes (Folder)
+│  │   │   ├── ClassSelection (Folder)
+│  │   │   │   ├── PromptClassSelection (RemoteEvent)
+│  │   │   │   ├── PromptStartingClassSelection (RemoteEvent)
+│  │   │   │   ├── PromptSubclassSelection (RemoteEvent)
+│  │   │   │   └── SelectSubclass (RemoteEvent)
+│  │   │   ├── Combat (Folder)
+│  │   │   │   └── SetBlocking (RemoteEvent)
+│  │   │   ├── Inventory (Folder)
+│  │   │   │   ├── EquipItem (RemoteEvent)
+│  │   │   │   └── UnequipItem (RemoteEvent)
+│  │   │   ├── Staff (Folder)
+│  │   │   │   ├── ShowStaffDamage (RemoteEvent)
+│  │   │   │   └── CastFireball (RemoteEvent)
+│  │   │   └── Sword (Folder)
+│  │   │       ├── ShowSwordDamage (RemoteEvent)
+│  │   │       └── SwordHit (RemoteEvent)
+│  │   ├── BodyPartMultipliers (ModuleScript).lua
+│  │   ├── DataTemplate (ModuleScript).lua
+│  │   ├── RayCastHitboxv4 (ModuleScript).lua
+│  │   └── StartingWeapons (ModuleScript).lua
+│  │
+│  ├── ServerScriptService
+│  │   ├── BlockingSystem (Folder)
+│  │   │   ├── BlockManager (Script).lua
+│  │   │   └── BlockState (ModuleScript).lua
+│  │   ├── Handler (Folder)
+│  │   │   ├── InventoryHandler (Script).lua
+│  │   │   └── WeaponSheathHandler (Script).lua
+│  │   ├── Manager (Folder)
+│  │   │   ├── ClassManager (Script).lua
+│  │   │   ├── InventoryManager (ModuleScript).lua
+│  │   │   └── PlayerDataManager (ModuleScript).lua
+│  │   ├── StarterWeaponCombatHandler (Folder)
+│  │   │   ├── StaffCombatHandler (Script).lua
+│  │   │   └── SwordCombatHandler (Script).lua
+│  │   ├── DebugReset (Script).lua
+│  │   ├── HeadBillboardGUI (Script).lua
+│  │   └── ProfileStore (ModuleScript).lua
+│  │
+│  ├── ServerStorage
+│  │   ├── SheathModels (Folder)
+│  │   │   ├── WoodenStaff_Sheath (Model)
+│  │   │   └── WoodenSword_Sheath (Model)
+│  │   └── StartingWeapons (Folder)
+│  │       ├── WoodenStaff (Tool)
+│  │       └── WoodenSword (Tool)
+│  │
+│  ├── StarterGui
+│  │   ├── ClassSelector (ScreenGui)
+│  │   ├── MainGUI (ScreenGui)
+│  │   └── SubClassSelector (ScreenGui)
+│  │
+│  └── StarterPlayer
+│      ├── StarterCharacterScripts (Folder)
+│      │   ├── DmgGUI (LocalScript).lua
+│      │   └── ShiftLockController (LocalScript).lua
+│      └── StarterPlayerScripts (Folder)
+│          └── ToolHotbar (LocalScript).lua
 └── g-photos/
