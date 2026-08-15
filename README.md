@@ -79,8 +79,8 @@ Glory/
 │  │
 │  └── StarterPlayer
 │      ├── StarterCharacterScripts (Folder)
-│      │   ├── DmgGUI (LocalScript).lua
-│      │   └── ShiftLockController (LocalScript).lua
+│      │   └── DmgGUI (LocalScript).lua
 │      └── StarterPlayerScripts (Folder)
+|          ├── ShiftLockController (LocalScript).lua
 │          └── ToolHotbar (LocalScript).lua
 └── g-photos/
