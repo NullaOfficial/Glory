@@ -94,20 +94,20 @@ Level Progression & Automated Stat Allocation System
 * **Base Allocation (Levels 1–20):** **4 Points Total** (+1 to Strength, Intelligence, Spirit, Vitality).
 * **Subclass Allocation (Levels 21–70):** **5 Points Total**, distributed according to the active subclass profile.
 
-### Stat Growth Distributions (Per Level)
+### **Stat Growth Distributions (Per Level)**
 
-### 1. Base Classes (Levels 1–19)
-All base classes (`Swordsman`, `Mage`, `Gunner`, `Fighter`, `NightWalker`, `Priest`) use a balanced allocation until selecting a subclass at level 20.
+#### 1. Base Classes (Levels 1–20)
+*All base classes (`Swordsman`, `Mage`, `Gunner`, `Fighter`, `NightWalker`, `Priest`) use a balanced allocation until selecting a subclass at level 20.*
 
 | Base Class | Level Range | Strength | Intelligence | Spirit | Vitality | Total / Lvl |
 | :--- | :-: | :-: | :-: | :-: | :-: | :-: |
-| **All Base Classes** | Lv. 1 – 19 | +1 | +1 | +1 | +1 | **4 pts** |
+| **All Base Classes** | Lv. 1 – 20 | +1 | +1 | +1 | +1 | **4 pts** |
 
 ---
 
-### 2. Subclasses (Levels 20–70)
+#### 2. Subclasses (Levels 21–70)
 
-#### ⚔️ Swordsman Subclasses
+#### Swordsman Subclasses
 | Subclass | Strength | Intelligence | Spirit | Vitality | Total / Lvl |
 | :--- | :-: | :-: | :-: | :-: | :-: |
 | **Ghostblade** | +3 | +1 | +0 | +1 | **5 pts** |
@@ -115,7 +115,7 @@ All base classes (`Swordsman`, `Mage`, `Gunner`, `Fighter`, `NightWalker`, `Prie
 | **Berserker** | +4 | +0 | +0 | +1 | **5 pts** |
 | **Spellblade** | +2 | +2 | +0 | +1 | **5 pts** |
 
-#### 🧙‍♂️ Mage Subclasses
+#### Mage Subclasses
 | Subclass | Strength | Intelligence | Spirit | Vitality | Total / Lvl |
 | :--- | :-: | :-: | :-: | :-: | :-: |
 | **Elementalist** | +0 | +4 | +1 | +0 | **5 pts** |
@@ -123,7 +123,7 @@ All base classes (`Swordsman`, `Mage`, `Gunner`, `Fighter`, `NightWalker`, `Prie
 | **Witch** | +0 | +3 | +1 | +1 | **5 pts** |
 | **Summoner** | +0 | +3 | +1 | +1 | **5 pts** |
 
-#### 🎯 Gunner Subclasses
+#### Gunner Subclasses
 | Subclass | Strength | Intelligence | Spirit | Vitality | Total / Lvl |
 | :--- | :-: | :-: | :-: | :-: | :-: |
 | **Sharpshooter** | +3 | +1 | +0 | +1 | **5 pts** |
@@ -131,7 +131,7 @@ All base classes (`Swordsman`, `Mage`, `Gunner`, `Fighter`, `NightWalker`, `Prie
 | **Mechanic** | +1 | +3 | +0 | +1 | **5 pts** |
 | **Spitfire** | +2 | +2 | +0 | +1 | **5 pts** |
 
-#### 🥊 Fighter Subclasses
+#### Fighter Subclasses
 | Subclass | Strength | Intelligence | Spirit | Vitality | Total / Lvl |
 | :--- | :-: | :-: | :-: | :-: | :-: |
 | **Brawler** | +3 | +0 | +0 | +2 | **5 pts** |
@@ -139,7 +139,7 @@ All base classes (`Swordsman`, `Mage`, `Gunner`, `Fighter`, `NightWalker`, `Prie
 | **Grappler** | +3 | +0 | +0 | +2 | **5 pts** |
 | **Striker** | +4 | +0 | +0 | +1 | **5 pts** |
 
-#### 🥷 NightWalker Subclasses
+#### NightWalker Subclasses
 | Subclass | Strength | Intelligence | Spirit | Vitality | Total / Lvl |
 | :--- | :-: | :-: | :-: | :-: | :-: |
 | **Assassin** | +4 | +0 | +0 | +1 | **5 pts** |
@@ -147,7 +147,7 @@ All base classes (`Swordsman`, `Mage`, `Gunner`, `Fighter`, `NightWalker`, `Prie
 | **Thief** | +3 | +1 | +0 | +1 | **5 pts** |
 | **Ninja** | +3 | +1 | +0 | +1 | **5 pts** |
 
-#### ✝️ Priest Subclasses
+#### Priest Subclasses
 | Subclass | Strength | Intelligence | Spirit | Vitality | Total / Lvl |
 | :--- | :-: | :-: | :-: | :-: | :-: |
 | **Healer** | +0 | +1 | +3 | +1 | **5 pts** |
