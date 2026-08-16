@@ -9,7 +9,7 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Defense = 1, Spirit = 1 },
+		Stats = { MagicResistance = 2, Spirit = 1, CastSpeed = 0.01 },
 	},
 	Shoulder_Novice_Cloth = {
 		Name = "Novice Cloth Pauldrons",
@@ -18,7 +18,7 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Defense = 1, Spirit = 1 },
+		Stats = { MagicResistance = 2, Spirit = 1, Tenacity = 0.01 },
 	},
 	UpperBody_Novice_Cloth = {
 		Name = "Novice Cloth Tunic",
@@ -27,7 +27,7 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Defense = 2, Spirit = 1, Intelligence = 1 },
+		Stats = { PhysicalDefense = 1, MagicResistance = 3, Spirit = 1, Intelligence = 1, MPRegen = 0.5 },
 	},
 	Waist_Novice_Cloth = {
 		Name = "Novice Cloth Sash",
@@ -36,7 +36,7 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Spirit = 1 },
+		Stats = { MagicResistance = 1, Spirit = 1, MPRegen = 0.2 },
 	},
 	LowerBody_Novice_Cloth = {
 		Name = "Novice Cloth Pants",
@@ -45,7 +45,7 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Defense = 1, Spirit = 1 },
+		Stats = { MagicResistance = 2, Spirit = 1, CastSpeed = 0.01 },
 	},
 	Cloak_Novice_Cloth = {
 		Name = "Traveler's Cloak",
@@ -54,11 +54,11 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Spirit = 2 },
+		Stats = { Spirit = 2, MovementSpeed = 0.02 },
 	},
 
 	-- ==========================================
-	-- LEATHER ARMOR (Assassins, Thirves, Sharpshooters, Brawlers)
+	-- LEATHER ARMOR (Assassins, Thieves, Sharpshooters, Brawlers)
 	-- ==========================================
 	Headwear_Novice_Leather = {
 		Name = "Basic Leather Cap",
@@ -67,7 +67,7 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Defense = 2, Strength = 1 },
+		Stats = { PhysicalDefense = 2, MagicResistance = 1, Strength = 1, AttackSpeed = 0.01 },
 	},
 	Shoulder_Novice_Leather = {
 		Name = "Novice Leather Pauldrons",
@@ -76,7 +76,7 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Defense = 1, Strength = 1 },
+		Stats = { PhysicalDefense = 2, MagicResistance = 1, Strength = 1, Evasion = 0.01 },
 	},
 	UpperBody_Novice_Leather = {
 		Name = "Novice Leather Vest",
@@ -85,7 +85,7 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Defense = 3, Strength = 1, Vitality = 1 },
+		Stats = { PhysicalDefense = 3, MagicResistance = 1, Strength = 1, Vitality = 1 },
 	},
 	Waist_Novice_Leather = {
 		Name = "Novice Leather Belt",
@@ -94,7 +94,7 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Defense = 1, Strength = 1 },
+		Stats = { PhysicalDefense = 1, Strength = 1 },
 	},
 	LowerBody_Novice_Leather = {
 		Name = "Novice Leather Pants",
@@ -103,7 +103,7 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Defense = 2, MovementSpeed = 0.01 },-- 1% de velocidad
+		Stats = { PhysicalDefense = 2, MovementSpeed = 0.01 },
 	},
 	Cloak_Novice_Leather = {
 		Name = "Explorer's Cloak",
@@ -112,7 +112,7 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { MovementSpeed = 0.05 }, -- 5% de velocidad
+		Stats = { MovementSpeed = 0.05, Evasion = 0.01 },
 	},
 
 	-- ==========================================
@@ -125,7 +125,7 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Defense = 3, Vitality = 1 },
+		Stats = { PhysicalDefense = 3, Vitality = 1 },
 	},
 	Shoulder_Novice_Plate = {
 		Name = "Novice Iron Pauldrons",
@@ -134,7 +134,7 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Defense = 2, Vitality = 1 },
+		Stats = { PhysicalDefense = 2, Vitality = 1 },
 	},
 	UpperBody_Novice_Plate = {
 		Name = "Novice Iron Chestplate",
@@ -143,7 +143,7 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Defense = 5, Vitality = 2 },
+		Stats = { PhysicalDefense = 5, Vitality = 2, Tenacity = 0.01 },
 	},
 	Waist_Novice_Plate = {
 		Name = "Novice Iron Sash",
@@ -152,7 +152,7 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Defense = 1, Vitality = 1 },
+		Stats = { PhysicalDefense = 1, Vitality = 1 },
 	},
 	LowerBody_Novice_Plate = {
 		Name = "Novice Iron Greaves",
@@ -161,7 +161,7 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Defense = 3, MovementSpeed = -0.01 }, -- -1% de velocidad
+		Stats = { PhysicalDefense = 3, MovementSpeed = -0.01 },
 	},
 	Cloak_Novice_Plate = {
 		Name = "Steel Cloak",
@@ -170,7 +170,7 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Defense = 2 },
+		Stats = { PhysicalDefense = 2 },
 	},
 
 	-- ==========================================
@@ -183,15 +183,15 @@ return {
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Strength = 1 },
+		Stats = { Strength = 1, PhysArmorPen = 1 },
 	},
 	Necklace_Copper = {
 		Name = "Copper Necklace",
-		Slot = "Necklance",
+		Slot = "Necklace",
 		ArmorType = "Universal",
 		Tier = 1,
 		Rarity = "White",
 		LevelReq = 1,
-		Stats = { Intelligence = 1 },
+		Stats = { Intelligence = 1, MagicArmorPen = 1 },
 	},
 }
