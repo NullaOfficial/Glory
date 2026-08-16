@@ -212,7 +212,7 @@ System Attribute & Item Specification:
 
 | # | Attribute / Property | Category | Weapons | Armor & Accessories | Technical Description & Game Impact |
 | :-: | :--- | :--- | :-: | :-: | :--- |
-| **1** | `Tier` | Core Meta | **Yes** | **Yes** | Progression rank of the item (`Tier 1` to `Tier 10`). |
+| **1** | `Tier` | Core Meta | **Yes** | **Yes** | Progression rank of the item (`Tier 1` to `Tier 5`). |
 | **2** | `Rarity` | Core Meta | **Yes** | **Yes** | Quality rank / UI Color (`White`, `Green`, `Blue`, `Purple`, `Orange`, `Silver`). |
 | **3** | `LevelReq` | Requirements | **Yes** | **Yes** | Minimum level required to equip the item. |
 | **4** | `Weight` | Physical | **Yes** | **Yes** | Item weight in kg. Higher values reduce `MovementSpeed` or increase stamina cost. |
@@ -265,8 +265,8 @@ Tier & Rarity System Specification:
 | **White** *(Common)* | `#FFFFFF` | Generic Vendors / Low-Level Drops | 0 | None. Flat base stats only. |
 | **Green** *(Quest)* | `#55FF55` | Quest Rewards (Villages & Outposts) | 1 | Slight primary stat bonuses. |
 | **Blue** *(Dungeon)* | `#0088ff` | Dungeon Bosses & Mainstream Drops | 2 | Standard competitive mid-tier gear. |
-| **Purple** *(Elite)* | `#AA00AA` | Wild Bosses & Extreme Dungeons | 3–4 | High stat values + advanced secondary bonuses. |
-| **Orange** *(Epic/Legendary)*| `#FFAA00` | Ultra-Rare World Bosses / Raid Drops | 4–5 | Peak system gear + unique skill passives. |
+| **Purple** *(Elite)* | `#AA00AA` | Wild Bosses & Extreme Dungeons | 3 | High stat values + advanced secondary bonuses. |
+| **Orange** *(Epic/Legendary)*| `#FFAA00` | Ultra-Rare World Bosses / Raid Drops | 5 | Peak system gear + unique skill passives. |
 | **Silver** *(Self-Made)* | `#959595` | Player Crafted via Equipment Editor | Custom | Unlimited custom stat allocations & custom skills. |
 
 ---
@@ -285,19 +285,7 @@ Self-Made Armor & Equipment Customization System
 Extra (Very Important)
 ===
 
-### 1. Gunner Auto-Reload & MP Management
-
-*Gunners do not rely on a manual reload key (R). Ammunition is handled automatically as a resource state:*
-
-#### - Automatic Chambering: Firing weapon rounds continuously drains MP per shot.
-
-#### - Special Ammunition: Activating elemental rounds (Freezing, Blazing, Armor-Piercing) reserves or consumes additional MP per projectile.
-
-#### - Uninterrupted Fire: Weapons will auto-chamber and fire without reload delays as long as the player maintains sufficient MP.
-
----
-
-### 2. Jump & Air Mobility Constraints
+### 1. Jump & Air Mobility Constraints
 
 *Universal Base Jump: Single jump available via Spacebar across all classes.*
 
@@ -307,7 +295,7 @@ Extra (Very Important)
 
 ---
 
-### 3. High-Hit Combo Systems & Mechanics (100+ Hit Combos)
+### 2. High-Hit Combo Systems & Mechanics (100+ Hit Combos)
 
 *Achieving massive hit counters (e.g., 100+ hits) is not possible through M1 spam due to enemy hit-stun recovery limits. Massive combos rely on three core pillars:*
 
@@ -319,7 +307,7 @@ Extra (Very Important)
 
 ---
 
-### 4. Animation Canceling & Feint System
+### 3. Animation Canceling & Feint System
 
 #### - Skill-to-Skill CancellationCancel the recovery frames (end-lag) of an active skill by immediately buffering another skill input:
 
