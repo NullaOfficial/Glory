@@ -250,11 +250,11 @@ Tier & Rarity System Specification:
 
 | Tier Rank | Target Level Range | Progression Phase & Acquisition Source | Attribute Multiplier |
 | :-: | :-: | :--- | :-: |
-| **Tier 1** | Lv. 1 – 19 | Starter Zone / Basic Village Quests & Shops | $1.0\times$ |
-| **Tier 2** | Lv. 20 – 34 | Early Dungeons / Intermediate Area Quests | $1.5\times$ |
-| **Tier 3** | Lv. 35 – 49 | Mid-Game Dungeons & Wild Elite Enemies | $2.2\times$ |
-| **Tier 4** | Lv. 50 – 64 | High-Level Dungeons & World Bosses | $3.2\times$ |
-| **Tier 5** | Lv. 65 – 70 | End-Game Raids & Max-Level Competitive Content | $4.5\times$ |
+| **Tier 1** | Lv. 1 – 20 | Starter Zone / Basic Village Quests & Shops | $1.0\times$ |
+| **Tier 2** | Lv. 21 – 35 | Early Dungeons / Intermediate Area Quests | $1.5\times$ |
+| **Tier 3** | Lv. 36 – 50 | Mid-Game Dungeons & Wild Elite Enemies | $2.2\times$ |
+| **Tier 4** | Lv. 51 – 65 | High-Level Dungeons & World Bosses | $3.2\times$ |
+| **Tier 5** | Lv. 66 – 70 | End-Game Raids & Max-Level Competitive Content | $4.5\times$ |
 
 ### **Rarity System (Item Quality & Color Hierarchy):**
 
@@ -309,7 +309,7 @@ Extra (Very Important)
 
 ### 3. High-Hit Combo Systems & Mechanics (200+ Hit Combos)
 
-*Achieving massive hit counters (e.g., 200+ hits) is not possible through M1 spam due to enemy hit-stun recovery limits. Massive combos rely on three core pillars:*
+*Achieving massive hit counters (e.g., 100+ hits) is not possible through M1 spam due to enemy hit-stun recovery limits. Massive combos rely on three core pillars:*
 
 #### - Launch State (Knock-up): Elevating an enemy using launcher skills (e.g., Upward Strike, Launcher Cannon) or directional inputs (S + M1). Launchers apply upward velocity vectors directly to the victim's root part.
 
