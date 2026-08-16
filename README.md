@@ -307,7 +307,7 @@ Extra (Very Important)
 
 ---
 
-### 3. High-Hit Combo Systems & Mechanics (200+ Hit Combos)
+### 3. High-Hit Combo Systems & Mechanics (100+ Hit Combos)
 
 *Achieving massive hit counters (e.g., 100+ hits) is not possible through M1 spam due to enemy hit-stun recovery limits. Massive combos rely on three core pillars:*
 
