@@ -19,13 +19,23 @@ Glory/
 │    │     ├── Definitions (Folder)
 │    │     │     ├── Class (Folder)
 │    │     │     │     └── ClassDefinitions (ModuleScript).lua
+│    │     │     │
+│    │     │     ├── FloatingWeapon (Folder)
+│    │     │     │     └── FloatingWeaponDefinitions (ModuleScript).lua
+│    │     │     │
 │    │     │     ├── Items (Folder)
 │    │     │     │     ├── WeaponDefinitions (ModuleScript).lua
 |    |     |     |     └── EquipmentDefinitions (ModuleScript).lua
+│    │     │     │
+│    │     │     ├── OffHandAccessories (Folder)
+│    │     │     │     └── OffHandDefinitions (ModuleScript).lua
+│    │     │     │
 │    │     │     ├── Rarity (Folder)
 │    │     │     │     └── RarityDefinitions (ModuleScript).lua
+│    │     │     │
 │    │     │     ├── Tier (Folder)
 │    │     │     │     └── TierDefinitions (ModuleScript).lua
+│    │     │     │
 │    │     │     └── Sheath (Folder)
 │    │     │            └── SheathDefinitions (ModuleScript).lua
 │    │     │       
@@ -38,12 +48,24 @@ Glory/
 │    │     │     │
 │    │     │     ├── Combat (Folder)
 │    │     │     │     └── SetBlocking (RemoteEvent)
+│    │     │     │
 │    │     │     ├── Inventory (Folder)
 │    │     │     │     ├── EquipItem (RemoteEvent)
 │    │     │     │     └── UnequipItem (RemoteEvent)
+│    │     │     │
+│    │     │     ├── Cross (Folder)
+│    │     │     │     ├── CastHolyBall (RemoteEvent)
+│    │     │     │     ├── ShowCrossEffect (RemoteEvent)
+│    │     │     │     └── ShowCrossDamage (RemoteEvent)
+│    │     │     │ 
 │    │     │     ├── Staff (Folder)
 │    │     │     │     ├── CastFireball (RemoteEvent)
 │    │     │     │     └── ShowStaffDamage (RemoteEvent)
+│    │     │     │ 
+│    │     │     ├── Daggers (Folder)
+│    │     │     │     ├── DaggersHit (RemoteEvent)
+│    │     │     │     └── ShowDaggersDamage (RemoteEvent)
+│    │     │     │
 │    │     │     └── Sword (Folder)
 │    │     │           ├── ShowSwordDamage (RemoteEvent)
 │    │     │           └── SwordHit (RemoteEvent)
@@ -60,6 +82,8 @@ Glory/
 │    │     |
 │    │     ├── Handler (Folder)
 │    │     │     ├── InventoryHandler (Script).lua
+│    │     │     ├── FloatingWeaponHandler (Script).lua
+│    │     │     ├── OffHandAccessoriesHandler (Script).lua
 │    │     │     └── WeaponSheathHandler (Script).lua
 │    │     |
 │    │     ├── Manager (Folder)
@@ -67,9 +91,11 @@ Glory/
 │    │     │     ├── InventoryManager (ModuleScript).lua
 │    │     │     └── PlayerDataManager (ModuleScript).lua
 │    │     |
-│    │     ├── StarterWeaponCombatHandler (Folder)
-│    │     │   ├── StaffCombatHandler (Script).lua
-│    │     │   └── SwordCombatHandler (Script).lua
+│    │     ├── WeaponLvl1Lvl10Handler (Folder)
+│    │     │     ├── StaffCombatHandler (Script).lua
+│    │     │     ├── CrossCombatHandler (Script).lua
+│    │     │     ├── DaggersCombatHandler (Script).lua
+│    │     │     └── SwordCombatHandler (Script).lua
 │    │     |
 │    │     ├── DebugReset (Script).lua
 │    │     ├── HeadBillboardGUI (Script).lua
@@ -77,25 +103,38 @@ Glory/
 │    │     └── ProfileStore (ModuleScript).lua
 │    │
 │    ├── ServerStorage
+│    │     ├── FloatingWeaponModels (Folder)
+│    │     |     └── WoodenCross_Floating (Tool)
+│    │     |
 │    │     ├── SheathModels (Folder)
 │    │     │     ├── WoodenStaff_Sheath (Model)
+│    │     │     ├── WoodenCross_Sheath (Model)
+│    │     │     ├── LeftDagger (Accessorie)
+│    │     │     ├── RightDagger_Sheath (Model)
+│    │     │     ├── LeftDagger_Sheath (Model)
 │    │     │     └── WoodenSword_Sheath (Model)
-│    │     ├── StartingWeapons (Folder)
+│    │     |
+│    │     ├── WeaponsLvl1Lvl10 (Folder)
 │    │     |     ├── WoodenStaff (Tool)
+│    │     |     ├── WoodenCross (Tool)
+│    │     |     ├── WoodenDaggers (Tool)
 │    │     |     └── WoodenSword (Tool)
+│    │     |
 │    │     └── Header (BillboardGUI)
 │    │
 │    ├── StarterGui
 │    │     ├── ClassSelector (ScreenGui)
+│    │     |     └── Frame (Frame)
 │    │     ├── MainGUI (ScreenGui)
 │    │     └── SubClassSelector (ScreenGui)
 │    │
 │    └── StarterPlayer
 │          ├── StarterCharacterScripts (Folder)
 │          │     └── DmgGUI (LocalScript).lua
+│          |
 │          └── StarterPlayerScripts (Folder)
-|              ├── ShiftLockRotation (LocalScript).lua
-│              └── ToolHotbar (LocalScript).lua
+|                ├── ShiftLockRotation (LocalScript).lua
+│                └── ToolHotbar (LocalScript).lua
 └── g-photos/
 ```
 
