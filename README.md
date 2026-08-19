@@ -125,15 +125,36 @@ Glory/
 │    ├── StarterGui
 │    │     ├── ClassSelector (ScreenGui)
 │    │     |     └── Frame (Frame)
+│    │     |          ├── LocalScript (LocalScript)
+│    │     |          ├── Priest (TextButton)
+│    │     |          ├── Swordsman (TextButton)
+│    │     |          ├── NightWalker (TextButton)
+│    │     |          ├── Mage (TextButton)
+│    │     |          ├── Gunner (TextButton)
+│    │     |          └── Fighter (TextButton)
+│    |     |
 │    │     ├── MainGUI (ScreenGui)
+│    │     |     └── Frame (Frame)
+│    │     |          ├── SkillButton (Folder)
+│    │     |          ├── Crosshair (Framee)
+│    │     |          ├── EXPBarBackground (Frame)
+│    │     |          ├── LevelFrame (Frame)
+│    │     |          └── PartyFrame (Frame)
+│    |     |
 │    │     └── SubClassSelector (ScreenGui)
+│    │     |     └── Frame (Frame)
+│    │     |          ├── LocalScript (LocalScript)
+│    │     |          ├── Subclass1 (TextButton)
+│    │     |          ├── Subclass2 (TextButton)
+│    │     |          ├── Subclass3 (TextButton)
+│    │     |          └── Subclass4 (TextButton)
 │    │
 │    └── StarterPlayer
 │          ├── StarterCharacterScripts (Folder)
 │          │     └── DmgGUI (LocalScript).lua
 │          |
 │          └── StarterPlayerScripts (Folder)
-|                ├── ShiftLockRotation (LocalScript).lua
+|                ├── UnlockMouse (LocalScript).lua
 │                └── ToolHotbar (LocalScript).lua
 └── g-photos/
 ```
